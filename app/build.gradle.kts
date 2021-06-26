@@ -56,7 +56,7 @@ dependencies {
     compileOnly("io.gitlab.arturbosch.detekt:detekt-api:$detektVersion")
     detekt("io.gitlab.arturbosch.detekt:detekt-cli:$detektVersion")
 
-//    detektPlugins(project(":detekt-custom-rules"))
+    detektPlugins(project(":detekt-custom-rules"))
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
     implementation("androidx.core:core-ktx:1.5.0")
