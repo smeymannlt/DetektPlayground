@@ -1,0 +1,2 @@
+rootProject.name = "Detekt playground"
+include ':app'
