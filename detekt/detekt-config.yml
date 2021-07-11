@@ -744,7 +744,8 @@ style:
     active: false
     excludes: ['**/test/**', '**/androidTest/**', '**/commonTest/**', '**/jvmTest/**', '**/jsTest/**', '**/iosTest/**']
     excludeImports: ['java.util.*', 'kotlinx.android.synthetic.*']
-#detekt-custom-rules:
-#  active: true
-#  SomeRule:
-#    active: true
+
+detekt-custom-rules:
+  active: true
+  SomeRule:
+    active: true

@@ -1,4 +1,4 @@
-package com.playgrounds.detekt.customrule
+package com.playgrounds.android_custom_rules
 
 import io.gitlab.arturbosch.detekt.api.*
 import io.gitlab.arturbosch.detekt.api.internal.ActiveByDefault
