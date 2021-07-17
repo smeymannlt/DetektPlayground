@@ -3,6 +3,7 @@ package com.playgrounds.android_custom_rules
 import io.gitlab.arturbosch.detekt.api.*
 import io.gitlab.arturbosch.detekt.api.internal.ActiveByDefault
 import org.jetbrains.kotlin.psi.KtImportDirective
+import java.lang.RuntimeException
 
 // THIS RULE SHOULD ALWAYS REPORT
 @ActiveByDefault(since = "now")

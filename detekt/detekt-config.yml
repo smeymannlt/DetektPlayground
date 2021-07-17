@@ -747,5 +747,5 @@ style:
 
 detekt-custom-rules:
   active: true
-  SomeRule:
+  ImportThingy:
     active: true
